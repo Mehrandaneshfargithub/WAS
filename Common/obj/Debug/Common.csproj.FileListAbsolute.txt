@@ -1,0 +1,10 @@
+C:\Users\Mehran\source\repos\Clinic\WAS\Common\bin\Debug\Common.dll
+C:\Users\Mehran\source\repos\Clinic\WAS\Common\bin\Debug\Common.pdb
+C:\Users\Mehran\source\repos\Clinic\WAS\Common\bin\Debug\AutoMapper.dll
+C:\Users\Mehran\source\repos\Clinic\WAS\Common\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Mehran\source\repos\Clinic\WAS\Common\bin\Debug\AutoMapper.xml
+C:\Users\Mehran\source\repos\Clinic\WAS\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Mehran\source\repos\Clinic\WAS\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\Mehran\source\repos\Clinic\WAS\Common\obj\Debug\Common.dll
+C:\Users\Mehran\source\repos\Clinic\WAS\Common\obj\Debug\Common.pdb
+C:\Users\Mehran\source\repos\Clinic\WAS\Common\obj\Debug\Common.csprojAssemblyReference.cache

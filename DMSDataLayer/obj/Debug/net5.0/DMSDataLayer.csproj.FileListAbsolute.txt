@@ -1,0 +1,15 @@
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\bin\Debug\net5.0\DMSDataLayer.deps.json
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\bin\Debug\net5.0\DMSDataLayer.runtimeconfig.json
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\bin\Debug\net5.0\DMSDataLayer.runtimeconfig.dev.json
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\bin\Debug\net5.0\DMSDataLayer.dll
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\bin\Debug\net5.0\ref\DMSDataLayer.dll
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\bin\Debug\net5.0\DMSDataLayer.pdb
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\obj\Debug\net5.0\DMSDataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\obj\Debug\net5.0\DMSDataLayer.AssemblyInfoInputs.cache
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\obj\Debug\net5.0\DMSDataLayer.AssemblyInfo.cs
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\obj\Debug\net5.0\DMSDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\obj\Debug\net5.0\DMSDataLayer.dll
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\obj\Debug\net5.0\ref\DMSDataLayer.dll
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\obj\Debug\net5.0\DMSDataLayer.pdb
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\obj\Debug\net5.0\DMSDataLayer.genruntimeconfig.cache
+C:\Users\Mehran\source\repos\Clinic\WAS\DMSDataLayer\obj\Debug\net5.0\DMSDataLayer.csprojAssemblyReference.cache

@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{500D4BC3-3279-4C56-A26B-6BACB9C30C75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\DataLayer.csproj", "{A5E7F798-0B79-4E5D-B4AD-2363F07D5104}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPH", "WPH\WPH\WPH.csproj", "{AC2D08CB-4B8B-49E6-BE1B-6F51E993A4D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMSDataLayer", "DMSDataLayer\DMSDataLayer.csproj", "{14F4DAFA-7894-4AA0-A0B8-76A4D4514D85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LRS", "LRS\LRS.csproj", "{325E340B-8AB6-4688-999B-4B26ABBEFD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateKey", "GenerateKey\GenerateKey.csproj", "{0039D5C8-4CA4-417D-BAC1-A275BE128452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{500D4BC3-3279-4C56-A26B-6BACB9C30C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500D4BC3-3279-4C56-A26B-6BACB9C30C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500D4BC3-3279-4C56-A26B-6BACB9C30C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500D4BC3-3279-4C56-A26B-6BACB9C30C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E7F798-0B79-4E5D-B4AD-2363F07D5104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E7F798-0B79-4E5D-B4AD-2363F07D5104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E7F798-0B79-4E5D-B4AD-2363F07D5104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E7F798-0B79-4E5D-B4AD-2363F07D5104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2D08CB-4B8B-49E6-BE1B-6F51E993A4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2D08CB-4B8B-49E6-BE1B-6F51E993A4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2D08CB-4B8B-49E6-BE1B-6F51E993A4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2D08CB-4B8B-49E6-BE1B-6F51E993A4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F4DAFA-7894-4AA0-A0B8-76A4D4514D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F4DAFA-7894-4AA0-A0B8-76A4D4514D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F4DAFA-7894-4AA0-A0B8-76A4D4514D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F4DAFA-7894-4AA0-A0B8-76A4D4514D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325E340B-8AB6-4688-999B-4B26ABBEFD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325E340B-8AB6-4688-999B-4B26ABBEFD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325E340B-8AB6-4688-999B-4B26ABBEFD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325E340B-8AB6-4688-999B-4B26ABBEFD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0039D5C8-4CA4-417D-BAC1-A275BE128452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0039D5C8-4CA4-417D-BAC1-A275BE128452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0039D5C8-4CA4-417D-BAC1-A275BE128452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0039D5C8-4CA4-417D-BAC1-A275BE128452}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F99BA9B-7732-4C89-935B-0917A38F0DFA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/trifayhataw
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Common\\Common.csproj
+		SccProjectName1 = Common
+		SccLocalPath1 = Common
+		SccProjectUniqueName2 = DataLayer\\DataLayer.csproj
+		SccProjectName2 = DataLayer
+		SccLocalPath2 = DataLayer
+		SccProjectUniqueName3 = WPH\\WPH\\WPH.csproj
+		SccProjectName3 = WPH/WPH
+		SccLocalPath3 = WPH\\WPH
+		SccProjectUniqueName4 = DMSDataLayer\\DMSDataLayer.csproj
+		SccProjectName4 = DMSDataLayer
+		SccLocalPath4 = DMSDataLayer
+		SccProjectUniqueName5 = LRS\\LRS.csproj
+		SccProjectName5 = LRS
+		SccLocalPath5 = LRS
+		SccProjectUniqueName6 = GenerateKey\\GenerateKey.csproj
+		SccProjectName6 = GenerateKey
+		SccLocalPath6 = GenerateKey
+	EndGlobalSection
+EndGlobal

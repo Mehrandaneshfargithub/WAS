@@ -1,0 +1,160 @@
+﻿
+
+
+<div class="row" style="padding: 2rem 0 0 0; margin: 0; background-color: #8DCBF2; height: 100%; font-family: serif;font-weight:900">
+
+    <div class="col-sm-12" style="display: flex; justify-content: center; margin: 1rem; padding: 0; margin: 0;">
+
+        <h1 style="font-family: serif; color: black; font-weight: 900 ">Labratory Result System</h1>
+
+    </div>
+
+    <div class="col-sm-12" style="height:50vh;display:flex;align-items:center;flex-wrap:wrap">
+
+
+
+
+        <div class="col-sm-12 col-md-12 col-lg-7" style="padding: 0; margin: 0; display: flex; justify-content: center;flex-wrap:wrap">
+
+            <div id="fillCodeAndNumber" class="col-sm-8 col-md-8" style="display:flex;justify-content:center;margin-bottom:1rem;color:red;visibility:hidden">
+                <div class="col-sm-6 col-md-6 col-lg-4" style="padding-right: 0.5rem;margin:0">
+
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-4" style="padding: 0">
+                    <span> Please Fill Code And PhoneNumber </span>
+                </div>
+
+
+            </div>
+
+            <div class="col-sm-8 col-md-8" style="display:flex;justify-content:center;margin-bottom:1rem">
+                <div class="col-sm-6 col-md-6 col-lg-4" style="padding-right: 0.5rem;margin:0">
+                    <span class="float-right" style="width: 100%; text-align: right"> Code : </span>
+
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-4" style="padding: 0">
+                    <span> <input id="Code" style="width:100%" /> </span>
+                </div>
+
+
+            </div>
+
+            <div class="col-sm-8 col-md-8" style="display:flex;justify-content:center">
+
+                <div class="col-sm-6 col-md-6 col-lg-4" style="padding-right:0.5rem;margin:0">
+                    <span class="float-right" style="width:100%;text-align:right"> Phone Number : </span>
+
+
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-4 " style="padding:0">
+                    <span> <input id="Number" style="width:100%" /> </span>
+                </div>
+
+            </div>
+
+            <div class="col-sm-8 col-md-8" style="display: flex; justify-content: center; margin-top: 1rem">
+                <div class="col-sm-6 col-md-6 col-lg-4 ">
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-4 btn btn-primary" style="float:right" onclick="GetResultFile()">
+                    Send
+                </div>
+
+
+            </div>
+
+            <div id="notExist" class="col-sm-8 col-md-8 " style="display: flex; justify-content: center; margin-top: 1rem;visibility:hidden">
+
+                <div class="col-sm-6 col-md-6 col-lg-4 ">
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-4 " style="float:right;text-align:center;color:red;font-size:2rem">
+                    @*<h4 style="color:red;float:right">Not Exist</h4>*@
+                    Not Exist
+                </div>
+
+
+
+            </div>
+
+            @*<div class="col-sm-8 col-md-8" style="display: flex; justify-content: center; margin-top: 1rem">
+            <div class="col-sm-6 col-md-6 col-lg-4 ">
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4 btn btn-primary" style="float:right">
+                <a href="#" id="ResultURL" target="_blank"> download </a>
+            </div>
+
+
+        </div>*@
+
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-5" style="background-image: src(~/wwwroot/vecteezy_chemist-pour-chemical-into-container.jpg); height: 50vh; padding: 0; margin: 0;display:flex;justify-content:left">
+
+            <img src="~/Three_scientists_working_at_science_lab.jpg" style="height: 100%; border-color: #8DCBF2" />
+
+        </div>
+
+
+    </div>
+
+    <div class="container-fluid" style="bottom:1rem;position:absolute;text-align:center">
+        &copy; 2015 - @DateTime.Now.Year - Trifay Hataw Company
+    </div>
+
+    
+
+
+</div>
+
+
+<script>
+
+    function GetResultFile() {
+
+        if ($("#Code").val() === "" || $("#Number").val() === "") {
+            $("#fillCodeAndNumber").css("visibility", "visible");
+            return;
+        }
+        else {
+            $("#fillCodeAndNumber").css("visibility", "hidden");
+        }
+
+
+        
+        let Code = $("#Code").val();
+        let PhoneNumber = $("#Number").val();
+        //fetch("/Home/GetResult?Code=" + Code + "&PhoneNumber=" + PhoneNumber).then((response) => { console.log(response) })
+        //let mypage = window.open("/Home/GetResult?Code=" + Code + "&PhoneNumber=" + PhoneNumber, '_blank').;
+
+        //console.log(mypage);
+        //console.log(mypage.document.body);
+        //console.log(mypage.document.body.innerText);
+        //console.log(mypage.document.body.firstChild);
+        //window.location = ("/Home/GetResult?Code=" + Code + "&PhoneNumber=" + PhoneNumber, _blank);
+        //fetch("/Home/GetResult?Code=" + Code + "&PhoneNumber=" + PhoneNumber).then((res) => { console.log(res) });
+        $.ajax({
+            
+            url: "/Home/GetResult?Code=" + Code + "&PhoneNumber=" + PhoneNumber,
+            success: function (data) {
+                if (data === "NotExist")
+                    $("#notExist").css("visibility", "visible");
+                else {
+                    $("#notExist").css("visibility", "hidden");
+                    
+                    let ss = window.open("/Home/GetResult?Code=" + Code + "&PhoneNumber=" + PhoneNumber, '_blank');
+                    //let ss = window.location = "/Home/GetResult?Code=" + Code + "&PhoneNumber=" + PhoneNumber;
+                    //console.log(ss.)
+                }
+                    
+            },
+
+        });
+
+    }
+
+</script>
