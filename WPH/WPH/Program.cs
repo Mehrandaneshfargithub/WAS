@@ -15,6 +15,7 @@ namespace WPH
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseIIS();
                 });
             
                 

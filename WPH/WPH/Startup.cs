@@ -50,7 +50,7 @@ namespace WPH
 
             string conStr = this.Configuration.GetConnectionString("Connection");
             //services.AddDbContext<WASContext>(options => options.UseSqlServer(ConnectionStringDecrypt.Decrypt(conStr)));
-            services.AddDbContext<WASContext>(options => options.UseSqlServer("Data Source=DESKTOP-PIVSERB;Initial Catalog=Sarkheil;Integrated Security=True;  MultipleActiveResultSets = true;"));
+            services.AddDbContext<WASContext>(options => options.UseSqlServer("Data Source=DESKTOP-PIVSERB;Initial Catalog=Sarkheil;User Id = sa; password =1990301223;Integrated Security=True;  MultipleActiveResultSets = true;"));
             services.AddSingleton<SharedViewLocalizer>();
 
             services.AddScoped<IDMSUnitOfWork, DMSUnitOfWork>();
