@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LRS", "LRS\LRS.csproj", "{3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateKey", "GenerateKey\GenerateKey.csproj", "{0039D5C8-4CA4-417D-BAC1-A275BE128452}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPHTest", "WPHTest\WPHTest.csproj", "{9D4C4471-A6D3-41AE-AB0D-C89507029310}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,35 +47,15 @@ Global
 		{0039D5C8-4CA4-417D-BAC1-A275BE128452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0039D5C8-4CA4-417D-BAC1-A275BE128452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0039D5C8-4CA4-417D-BAC1-A275BE128452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4C4471-A6D3-41AE-AB0D-C89507029310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4C4471-A6D3-41AE-AB0D-C89507029310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4C4471-A6D3-41AE-AB0D-C89507029310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4C4471-A6D3-41AE-AB0D-C89507029310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F99BA9B-7732-4C89-935B-0917A38F0DFA}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://dev.azure.com/trifayhataw
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Common\\Common.csproj
-		SccProjectName1 = Common
-		SccLocalPath1 = Common
-		SccProjectUniqueName2 = DataLayer\\DataLayer.csproj
-		SccProjectName2 = DataLayer
-		SccLocalPath2 = DataLayer
-		SccProjectUniqueName3 = WPH\\WPH\\WPH.csproj
-		SccProjectName3 = WPH/WPH
-		SccLocalPath3 = WPH\\WPH
-		SccProjectUniqueName4 = DMSDataLayer\\DMSDataLayer.csproj
-		SccProjectName4 = DMSDataLayer
-		SccLocalPath4 = DMSDataLayer
-		SccProjectUniqueName5 = LRS\\LRS.csproj
-		SccProjectName5 = LRS
-		SccLocalPath5 = LRS
-		SccProjectUniqueName6 = GenerateKey\\GenerateKey.csproj
-		SccProjectName6 = GenerateKey
-		SccLocalPath6 = GenerateKey
 	EndGlobalSection
 EndGlobal
