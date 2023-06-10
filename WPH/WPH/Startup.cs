@@ -49,8 +49,8 @@ namespace WPH
             services.AddDbContext<DMSContext>(options => options.UseSqlServer(ConnectionStringDecrypt.Decrypt(dmsConStr)));
 
             string conStr = this.Configuration.GetConnectionString("Connection");
-            services.AddDbContext<WASContext>(options => options.UseSqlServer(ConnectionStringDecrypt.Decrypt(conStr)));
-            //services.AddDbContext<WASContext>(options => options.UseSqlServer("Data Source=DESKTOP-F7HBL8A\\EXPRES2019;Initial Catalog=WPHNew2;Integrated Security=True;  MultipleActiveResultSets = true;"));
+            //services.AddDbContext<WASContext>(options => options.UseSqlServer(ConnectionStringDecrypt.Decrypt(conStr)));
+            services.AddDbContext<WASContext>(options => options.UseSqlServer("Data Source=DESKTOP-PIVSERB;Initial Catalog=Sarkheil;Integrated Security=True;  MultipleActiveResultSets = true;"));
             services.AddSingleton<SharedViewLocalizer>();
 
             services.AddScoped<IDMSUnitOfWork, DMSUnitOfWork>();
