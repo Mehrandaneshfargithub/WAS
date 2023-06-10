@@ -1,0 +1,10 @@
+C:\Users\Mehran\source\repos\Clinic\WAS\GenerateKey\bin\Debug\GenerateKey.exe.config
+C:\Users\Mehran\source\repos\Clinic\WAS\GenerateKey\bin\Debug\GenerateKey.exe
+C:\Users\Mehran\source\repos\Clinic\WAS\GenerateKey\bin\Debug\GenerateKey.pdb
+C:\Users\Mehran\source\repos\Clinic\WAS\GenerateKey\obj\Debug\GenerateKey.csprojAssemblyReference.cache
+C:\Users\Mehran\source\repos\Clinic\WAS\GenerateKey\obj\Debug\GenerateKey.Form1.resources
+C:\Users\Mehran\source\repos\Clinic\WAS\GenerateKey\obj\Debug\GenerateKey.Properties.Resources.resources
+C:\Users\Mehran\source\repos\Clinic\WAS\GenerateKey\obj\Debug\GenerateKey.csproj.GenerateResource.cache
+C:\Users\Mehran\source\repos\Clinic\WAS\GenerateKey\obj\Debug\GenerateKey.csproj.CoreCompileInputs.cache
+C:\Users\Mehran\source\repos\Clinic\WAS\GenerateKey\obj\Debug\GenerateKey.exe
+C:\Users\Mehran\source\repos\Clinic\WAS\GenerateKey\obj\Debug\GenerateKey.pdb
