@@ -2747,7 +2747,6 @@ H:\Projects\WAS\WPH\obj\Release\net5.0\ref\WPH.dll
 H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.pdb
 H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.genruntimeconfig.cache
 H:\Projects\WAS\WPH\bin\Release\net5.0\NuGet.Config
-H:\Projects\WAS\WPH\bin\Release\net5.0\WPH.StaticWebAssets.xml
 H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.csproj.AssemblyReference.cache
 H:\Projects\WAS\WPH\obj\Release\net5.0\staticwebassets\WPH.StaticWebAssets.Pack.cache
 H:\Projects\WAS\WPH\obj\Release\net5.0\staticwebassets\msbuild.WPH.Microsoft.AspNetCore.StaticWebAssets.props
