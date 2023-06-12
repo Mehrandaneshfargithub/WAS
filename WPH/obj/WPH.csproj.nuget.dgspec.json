@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Projects\\WAS\\WPH\\WPH\\WPH.csproj": {}
+    "H:\\Projects\\WAS\\WPH\\WPH.csproj": {}
   },
   "projects": {
     "H:\\Projects\\WAS\\Common\\Common.csproj": {
@@ -160,14 +160,14 @@
         }
       }
     },
-    "H:\\Projects\\WAS\\WPH\\WPH\\WPH.csproj": {
+    "H:\\Projects\\WAS\\WPH\\WPH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Projects\\WAS\\WPH\\WPH\\WPH.csproj",
+        "projectUniqueName": "H:\\Projects\\WAS\\WPH\\WPH.csproj",
         "projectName": "WPH",
-        "projectPath": "H:\\Projects\\WAS\\WPH\\WPH\\WPH.csproj",
+        "projectPath": "H:\\Projects\\WAS\\WPH\\WPH.csproj",
         "packagesPath": "C:\\Users\\Mehran\\.nuget\\packages\\",
-        "outputPath": "H:\\Projects\\WAS\\WPH\\WPH\\obj\\",
+        "outputPath": "H:\\Projects\\WAS\\WPH\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehran\\AppData\\Roaming\\NuGet\\NuGet.Config",

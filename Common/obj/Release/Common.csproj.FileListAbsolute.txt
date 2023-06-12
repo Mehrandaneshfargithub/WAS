@@ -8,3 +8,12 @@ C:\Users\Mehran\source\repos\Clinic\WAS\Common\obj\Release\Common.csproj.CoreCom
 C:\Users\Mehran\source\repos\Clinic\WAS\Common\obj\Release\Common.csproj.CopyComplete
 C:\Users\Mehran\source\repos\Clinic\WAS\Common\obj\Release\Common.dll
 C:\Users\Mehran\source\repos\Clinic\WAS\Common\obj\Release\Common.pdb
+H:\Projects\WAS\Common\bin\Release\Common.dll
+H:\Projects\WAS\Common\bin\Release\Common.pdb
+H:\Projects\WAS\Common\bin\Release\Microsoft.Web.Infrastructure.dll
+H:\Projects\WAS\Common\bin\Release\AutoMapper.xml
+H:\Projects\WAS\Common\obj\Release\Common.csprojAssemblyReference.cache
+H:\Projects\WAS\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+H:\Projects\WAS\Common\obj\Release\Common.csproj.CopyComplete
+H:\Projects\WAS\Common\obj\Release\Common.dll
+H:\Projects\WAS\Common\obj\Release\Common.pdb

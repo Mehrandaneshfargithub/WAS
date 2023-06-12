@@ -61,17 +61,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Common\Common.csproj" />
-    <ProjectReference Include="..\..\DataLayer\DataLayer.csproj" />
-    <ProjectReference Include="..\..\DMSDataLayer\DMSDataLayer.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Logs\" />
     <Folder Include="Views\Shared\PartialViews\AppWebForms\ClinicSectionSetting\" />
     <Folder Include="wwwroot\Content\assets\font-awesome\6\" />
     <Folder Include="wwwroot\Uploads\thumbnail\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj" />
+    <ProjectReference Include="..\DMSDataLayer\DMSDataLayer.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -11694,18 +11694,18 @@
     },
     "Common/1.0.0": {
       "type": "project",
-      "path": "../../Common/Common.csproj",
-      "msbuildProject": "../../Common/Common.csproj"
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
     },
     "DataLayer/1.0.0": {
       "type": "project",
-      "path": "../../DataLayer/DataLayer.csproj",
-      "msbuildProject": "../../DataLayer/DataLayer.csproj"
+      "path": "../DataLayer/DataLayer.csproj",
+      "msbuildProject": "../DataLayer/DataLayer.csproj"
     },
     "DMSDataLayer/1.0.0": {
       "type": "project",
-      "path": "../../DMSDataLayer/DMSDataLayer.csproj",
-      "msbuildProject": "../../DMSDataLayer/DMSDataLayer.csproj"
+      "path": "../DMSDataLayer/DMSDataLayer.csproj",
+      "msbuildProject": "../DMSDataLayer/DMSDataLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11736,11 +11736,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Projects\\WAS\\WPH\\WPH\\WPH.csproj",
+      "projectUniqueName": "H:\\Projects\\WAS\\WPH\\WPH.csproj",
       "projectName": "WPH",
-      "projectPath": "H:\\Projects\\WAS\\WPH\\WPH\\WPH.csproj",
+      "projectPath": "H:\\Projects\\WAS\\WPH\\WPH.csproj",
       "packagesPath": "C:\\Users\\Mehran\\.nuget\\packages\\",
-      "outputPath": "H:\\Projects\\WAS\\WPH\\WPH\\obj\\",
+      "outputPath": "H:\\Projects\\WAS\\WPH\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mehran\\AppData\\Roaming\\NuGet\\NuGet.Config",
