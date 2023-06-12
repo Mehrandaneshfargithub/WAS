@@ -35,7 +35,9 @@ using Microsoft.AspNetCore.Http;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6180525d601cc11edd8b93839ea862fa0e3c686d", @"/Views/Shared/PartialViews/AppWebForms/ReturnSaleInvoiceDetail/mdReturnSaleInvoiceDetailNewModal.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5221a2d8e2059d2e61789d73e7efe285a53b8943", @"/Views/_ViewImports.cshtml")]
+    #nullable restore
     public class Views_Shared_PartialViews_AppWebForms_ReturnSaleInvoiceDetail_mdReturnSaleInvoiceDetailNewModal : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<WPH.Models.ReturnSaleInvoiceDetail.ReturnSaleInvoiceDetailViewModel>
+    #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("id", new global::Microsoft.AspNetCore.Html.HtmlString("RetunSaleInvoiceDetailForm"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         #line hidden
@@ -186,7 +188,7 @@ WriteAttributeValue("", 1457, pull, 1457, 5, false);
             WriteAttributeValue(" ", 1472, "", 1473, 1, true);
             EndWriteAttribute();
             WriteLiteral(">\r\n\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6180525d601cc11edd8b93839ea862fa0e3c686d8549", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6180525d601cc11edd8b93839ea862fa0e3c686d8595", async() => {
                 WriteLiteral("\r\n            <fieldset>\r\n\r\n                <div class=\"col-sm-12\" style=\"margin-bottom:15px;\">\r\n                    <div class=\"col-sm-12\">\r\n                        <div class=\"col-sm-6\">\r\n                            ");
 #nullable restore
 #line 62 "H:\Projects\WAS\WPH\Views\Shared\PartialViews\AppWebForms\ReturnSaleInvoiceDetail\mdReturnSaleInvoiceDetailNewModal.cshtml"
@@ -864,20 +866,34 @@ WriteAttributeValue("", 1457, pull, 1457, 5, false);
 ");
         }
         #pragma warning restore 1998
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public WPH.Resources.SharedViewLocalizer Localizer { get; private set; }
+        public WPH.Resources.SharedViewLocalizer Localizer { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public IHttpContextAccessor HttpContextAccessor { get; private set; }
+        public IHttpContextAccessor HttpContextAccessor { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<WPH.Models.ReturnSaleInvoiceDetail.ReturnSaleInvoiceDetailViewModel> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<WPH.Models.ReturnSaleInvoiceDetail.ReturnSaleInvoiceDetailViewModel> Html { get; private set; } = default!;
+        #nullable disable
     }
 }
 #pragma warning restore 1591

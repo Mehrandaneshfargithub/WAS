@@ -35,7 +35,9 @@ using Microsoft.AspNetCore.Http;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d9e3eb53fa48031239609b52aa87e55b8a0c5fb8", @"/Views/Shared/PartialViews/AppWebForms/PurchaseInvoiceDetail/mdPurchaseInvoiceDetailNewModal.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5221a2d8e2059d2e61789d73e7efe285a53b8943", @"/Views/_ViewImports.cshtml")]
+    #nullable restore
     public class Views_Shared_PartialViews_AppWebForms_PurchaseInvoiceDetail_mdPurchaseInvoiceDetailNewModal : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<WPH.Models.PurchaseInvoiceDetail.PurchaseInvoiceDetailViewModel>
+    #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("id", new global::Microsoft.AspNetCore.Html.HtmlString("PurchaseInvoiceDetailForm"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         #line hidden
@@ -344,7 +346,7 @@ WriteAttributeValue("", 5424, pull, 5424, 5, false);
             WriteAttributeValue(" ", 5439, "", 5440, 1, true);
             EndWriteAttribute();
             WriteLiteral(">\r\n\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9e3eb53fa48031239609b52aa87e55b8a0c5fb814963", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9e3eb53fa48031239609b52aa87e55b8a0c5fb815009", async() => {
                 WriteLiteral("\r\n            <fieldset>\r\n                <div class=\"col-sm-12\">\r\n\r\n                    <div class=\"col-sm-3\">\r\n                        <label class=\"block clearfix \">\r\n                            <label for=\"form-field-8\">");
 #nullable restore
 #line 165 "H:\Projects\WAS\WPH\Views\Shared\PartialViews\AppWebForms\PurchaseInvoiceDetail\mdPurchaseInvoiceDetailNewModal.cshtml"
@@ -1924,20 +1926,34 @@ WriteAttributeValue(" ", 29831, font, 29832, 5, false);
             WriteLiteral("    function closeAddNewProductModal() {\r\n\r\n        $(\'#AddNewProductModal\').modal(\'hide\');\r\n        $(\".modal-backdrop:last\").remove();\r\n        $(\'#AddNewProductModal-body\').empty();\r\n    }\r\n\r\n</script>\r\n");
         }
         #pragma warning restore 1998
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public WPH.Resources.SharedViewLocalizer Localizer { get; private set; }
+        public WPH.Resources.SharedViewLocalizer Localizer { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public IHttpContextAccessor HttpContextAccessor { get; private set; }
+        public IHttpContextAccessor HttpContextAccessor { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<WPH.Models.PurchaseInvoiceDetail.PurchaseInvoiceDetailViewModel> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<WPH.Models.PurchaseInvoiceDetail.PurchaseInvoiceDetailViewModel> Html { get; private set; } = default!;
+        #nullable disable
     }
 }
 #pragma warning restore 1591

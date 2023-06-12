@@ -1841,7 +1841,6 @@ H:\Projects\WAS\WPH\bin\Release\net5.0\WPH.deps.json
 H:\Projects\WAS\WPH\bin\Release\net5.0\WPH.runtimeconfig.json
 H:\Projects\WAS\WPH\bin\Release\net5.0\WPH.runtimeconfig.dev.json
 H:\Projects\WAS\WPH\bin\Release\net5.0\WPH.dll
-H:\Projects\WAS\WPH\bin\Release\net5.0\ref\WPH.dll
 H:\Projects\WAS\WPH\bin\Release\net5.0\WPH.pdb
 H:\Projects\WAS\WPH\bin\Release\net5.0\ar-IQ\WPH.resources.dll
 H:\Projects\WAS\WPH\bin\Release\net5.0\en\WPH.resources.dll
@@ -2342,7 +2341,6 @@ H:\Projects\WAS\WPH\bin\Release\net5.0\Common.pdb
 H:\Projects\WAS\WPH\bin\Release\net5.0\DataLayer.pdb
 H:\Projects\WAS\WPH\bin\Release\net5.0\DMSDataLayer.pdb
 H:\Projects\WAS\WPH\bin\Release\net5.0\AutoMapper.xml
-H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.csprojAssemblyReference.cache
 H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.Resources.SharedResource.ar-IQ.resources
 H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.Resources.SharedResource.en.resources
 H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.Resources.SharedResource.ku.resources
@@ -2359,7 +2357,6 @@ H:\Projects\WAS\WPH\obj\Release\net5.0\ar-IQ\WPH.resources.dll
 H:\Projects\WAS\WPH\obj\Release\net5.0\en\WPH.resources.dll
 H:\Projects\WAS\WPH\obj\Release\net5.0\ku\WPH.resources.dll
 H:\Projects\WAS\WPH\obj\Release\net5.0\staticwebassets\WPH.StaticWebAssets.Manifest.cache
-H:\Projects\WAS\WPH\obj\Release\net5.0\staticwebassets\WPH.StaticWebAssets.xml
 H:\Projects\WAS\WPH\obj\Release\net5.0\scopedcss\bundle\WPH.styles.css
 H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.TagHelpers.input.cache
 H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.TagHelpers.output.cache
@@ -2749,3 +2746,12 @@ H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.dll
 H:\Projects\WAS\WPH\obj\Release\net5.0\ref\WPH.dll
 H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.pdb
 H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.genruntimeconfig.cache
+H:\Projects\WAS\WPH\bin\Release\net5.0\NuGet.Config
+H:\Projects\WAS\WPH\bin\Release\net5.0\WPH.StaticWebAssets.xml
+H:\Projects\WAS\WPH\obj\Release\net5.0\WPH.csproj.AssemblyReference.cache
+H:\Projects\WAS\WPH\obj\Release\net5.0\staticwebassets\WPH.StaticWebAssets.Pack.cache
+H:\Projects\WAS\WPH\obj\Release\net5.0\staticwebassets\msbuild.WPH.Microsoft.AspNetCore.StaticWebAssets.props
+H:\Projects\WAS\WPH\obj\Release\net5.0\staticwebassets\msbuild.build.WPH.props
+H:\Projects\WAS\WPH\obj\Release\net5.0\staticwebassets\msbuild.buildMultiTargeting.WPH.props
+H:\Projects\WAS\WPH\obj\Release\net5.0\staticwebassets\msbuild.buildTransitive.WPH.props
+H:\Projects\WAS\WPH\obj\Release\net5.0\refint\WPH.dll
