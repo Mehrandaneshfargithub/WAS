@@ -23,7 +23,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "H:\\Projects\\WAS\\WPH\\AspNet.Core": {},
+          "H:\\Projects\\WAS\\AspNet.Core": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

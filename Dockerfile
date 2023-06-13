@@ -1,9 +1,22 @@
+FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim AS base
+WORKDIR /app
+EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build-env
-#WORKDIR /src
 
-COPY *.sln ./
-RUN dotnet restore
+WORKDIR /app
+
+COPY NuGet.Config /
+
+
+COPY . ./
+
+
+# Copy csproj and restore as distinct layers
+#COPY /Common/*.csproj ./
+COPY *.csproj ./
+#RUN dotnet restore
+RUN dotnet restore WPH/WPH.csproj
 
 # Copy everything else and build
 COPY . ./

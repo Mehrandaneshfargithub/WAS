@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Common
 {
-    public static class ConvertModels<T, U> 
+    public static class ConvertModels<T, U>
     {
         public static List<T> convertModelsLists(IEnumerable<U> UGenericList)
         {
@@ -28,8 +28,6 @@ namespace Common
             T TGeneric = mapper.Map<U, T>(UGeneric);
             return TGeneric;
         }
-        
+
     }
-
-
 }
