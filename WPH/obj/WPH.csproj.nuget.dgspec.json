@@ -270,11 +270,11 @@
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[3.1.32, )"
             },
             "Microsoft.AspNetCore.ResponseCompression": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.1.21, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -284,7 +284,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[3.1.32, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -293,6 +293,10 @@
             "Microsoft.Extensions.DependencyModel": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -309,10 +313,6 @@
             "Stimulsoft.Reports.Web.NetCore": {
               "target": "Package",
               "version": "[2019.2.1, )"
-            },
-            "System.Management": {
-              "target": "Package",
-              "version": "[5.0.0, )"
             },
             "Telerik.UI.for.AspNet.Core": {
               "target": "Package",

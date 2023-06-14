@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Management;
+//using System.Management;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -173,26 +173,28 @@ namespace WPH.Helper
 
         private string GetProcessorID()
         {
-            ManagementObjectSearcher mbs = new ManagementObjectSearcher("Select ProcessorID From Win32_processor");
-            ManagementObjectCollection mbsList = mbs.Get();
-            string id = "";
-            foreach (ManagementObject mo in mbsList)
-            {
-                id = mo["ProcessorID"].ToString();
-            }
-            return id;
+            //ManagementObjectSearcher mbs = new ManagementObjectSearcher("Select ProcessorID From Win32_processor");
+            //ManagementObjectCollection mbsList = mbs.Get();
+            //string id = "";
+            //foreach (ManagementObject mo in mbsList)
+            //{
+            //    id = mo["ProcessorID"].ToString();
+            //}
+            //return id;
+            return null;
         }
 
         private string GetMotherBoardId()
         {
-            ManagementObjectSearcher mos = new ManagementObjectSearcher("SELECT SerialNumber FROM Win32_BaseBoard");
-            ManagementObjectCollection moc = mos.Get();
-            string serial = "";
-            foreach (ManagementObject mo in moc)
-            {
-                serial = (string)mo["SerialNumber"];
-            }
-            return serial;
+            //ManagementObjectSearcher mos = new ManagementObjectSearcher("SELECT SerialNumber FROM Win32_BaseBoard");
+            //ManagementObjectCollection moc = mos.Get();
+            //string serial = "";
+            //foreach (ManagementObject mo in moc)
+            //{
+            //    serial = (string)mo["SerialNumber"];
+            //}
+            //return serial;
+            return null;
         }
 
         private (string Key, string IVBase64) InitSymmetricEncryptionKeyIV()

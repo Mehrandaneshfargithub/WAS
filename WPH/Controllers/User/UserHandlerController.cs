@@ -50,16 +50,16 @@ namespace WPH.Controllers.User
                 ViewBag.ClinicName = name;
 
 
-                var licenceAccess = _IDUNIT.licenceKey.CheckLicence();
-                if (!long.TryParse(licenceAccess, out long remDay))
-                    return View("Licence", licenceAccess);
+                //var licenceAccess = _IDUNIT.licenceKey.CheckLicence();
+                //if (!long.TryParse(licenceAccess, out long remDay))
+                //    return View("Licence", licenceAccess);
 
-                ViewBag.RemDays = remDay;
+                ViewBag.RemDays = 10;
 
-                if(remDay < 20)
-                {
+                //if(remDay < 20)
+                //{
 
-                }
+                //}
 
                 return View();
             }

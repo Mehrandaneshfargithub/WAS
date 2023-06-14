@@ -10,6 +10,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>aec492e3-0f30-4af3-a34d-5f330a608222</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -43,21 +44,21 @@
     <PackageReference Include="Localization.AspNetCore.TagHelpers" Version="0.6.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.7" />
     <PackageReference Include="Microsoft.AspNet.WebPages" Version="3.2.7" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.13" />
-    <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.32" />
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="2.1.21" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.32">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
     <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="6.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="morelinq" Version="3.3.2" />
     <PackageReference Include="QRCoder" Version="1.4.3" />
     <PackageReference Include="Serilog.Extensions.Logging.File" Version="3.0.0" />
     <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2019.2.1" />
-    <PackageReference Include="System.Management" Version="5.0.0" />
     <PackageReference Include="Telerik.UI.for.AspNet.Core" Version="2021.2.511" />
   </ItemGroup>
 
