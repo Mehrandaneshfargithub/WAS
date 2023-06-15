@@ -6078,8 +6078,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "H:\\Projects\\WAS\\AspNet.Core": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "H:\\Projects\\WAS\\AspNet.Core": {}
       },
       "frameworks": {
         "net5.0": {
@@ -6132,7 +6131,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
