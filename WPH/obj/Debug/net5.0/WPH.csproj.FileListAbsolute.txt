@@ -1435,9 +1435,7 @@ H:\Projects\WAS\WPH\obj\Debug\net5.0\WPH.MvcApplicationPartsAssemblyInfo.cs
 H:\Projects\WAS\WPH\obj\Debug\net5.0\WPH.MvcApplicationPartsAssemblyInfo.cache
 H:\Projects\WAS\WPH\obj\Debug\net5.0\WPH.RazorAssemblyInfo.cache
 H:\Projects\WAS\WPH\obj\Debug\net5.0\WPH.RazorAssemblyInfo.cs
-H:\Projects\WAS\WPH\obj\Debug\net5.0\ar-IQ\WPH.resources.cs
 H:\Projects\WAS\WPH\obj\Debug\net5.0\ar-IQ\WPH.resources.dll
-H:\Projects\WAS\WPH\obj\Debug\net5.0\en\WPH.resources.cs
 H:\Projects\WAS\WPH\obj\Debug\net5.0\en\WPH.resources.dll
 H:\Projects\WAS\WPH\obj\Debug\net5.0\scopedcss\bundle\WPH.styles.css
 H:\Projects\WAS\WPH\obj\Debug\net5.0\staticwebassets\WPH.StaticWebAssets.Manifest.cache
@@ -1835,3 +1833,6 @@ H:\Projects\WAS\WPH\obj\Debug\net5.0\refint\WPH.dll
 H:\Projects\WAS\WPH\obj\Debug\net5.0\WPH.pdb
 H:\Projects\WAS\WPH\obj\Debug\net5.0\WPH.genruntimeconfig.cache
 H:\Projects\WAS\WPH\obj\Debug\net5.0\ref\WPH.dll
+H:\Projects\WAS\WPH\bin\Debug\net5.0\ku\WPH.resources.dll
+H:\Projects\WAS\WPH\obj\Debug\net5.0\ku\WPH.resources.dll
+H:\Projects\WAS\WPH\bin\Debug\net5.0\System.Management.dll

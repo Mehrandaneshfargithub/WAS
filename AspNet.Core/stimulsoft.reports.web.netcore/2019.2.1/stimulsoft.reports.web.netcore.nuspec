@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Stimulsoft.Reports.Web.NetCore</id>
+    <version>2019.2.1</version>
+    <title>Stimulsoft Reports.Web for .NET Core</title>
+    <authors>Stimulsoft</authors>
+    <owners>Stimulsoft</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://www.stimulsoft.com/en/licensing/reports</licenseUrl>
+    <projectUrl>https://www.stimulsoft.com/en/products/reports-web</projectUrl>
+    <iconUrl>https://www.stimulsoft.com/images/products/nuget/core.png</iconUrl>
+    <description>Stimulsoft Reports.Web for .NET Core is a reporting tool designed to create and render reports in Web using native .NET Core report engine. Stimulsoft Reports.Web will provide the complete cycle of report designing, from creating report templates and ending with showing them in a web browser. All this can be done without closing a web browser. Stimulsoft Reports.Web is the reporting tool that allows you to edit reports directly in Web.</description>
+    <summary>Reporting tool which helps you create flexible and feature rich reports in native .NET Core applications.</summary>
+    <releaseNotes>You can check the release notes for this version here:
+https://www.stimulsoft.com/en/changes/reports-web?build=2019.2.1</releaseNotes>
+    <copyright>Copyright (C) 2003-2019 Stimulsoft, All rights reserved.</copyright>
+    <language>en-US</language>
+    <tags>stimulsoft report reports reporting tool generator html5 viewer designer sql xml json data barcode qr-code charts export pdf excel html mvc net-core</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.0.4" />
+        <dependency id="Microsoft.CSharp" version="4.4.1" />
+        <dependency id="Microsoft.Win32.Registry" version="4.4.0" />
+        <dependency id="System.CodeDom" version="4.4.0" />
+        <dependency id="System.Data.SqlClient" version="4.4.3" />
+        <dependency id="System.Drawing.Common" version="4.5.1" />
+        <dependency id="System.Reflection.Emit" version="4.3.0" />
+        <dependency id="System.Reflection.Emit.Lightweight" version="4.3.0" />
+        <dependency id="System.Text.Encoding.CodePages" version="4.4.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

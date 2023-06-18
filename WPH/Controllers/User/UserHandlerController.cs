@@ -54,7 +54,7 @@ namespace WPH.Controllers.User
                 //if (!long.TryParse(licenceAccess, out long remDay))
                 //    return View("Licence", licenceAccess);
 
-                ViewBag.RemDays = 10;
+                ViewBag.RemDays = 30;
 
                 //if(remDay < 20)
                 //{
