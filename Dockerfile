@@ -28,6 +28,11 @@ RUN dotnet publish -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
 
+
+
+COPY --from=build-env /app/out .
+
+
 COPY Stimulsoft.Base.dll .
 COPY Stimulsoft.Data.dll .
 COPY Stimulsoft.Map.dll .
@@ -38,11 +43,6 @@ COPY Stimulsoft.Report.Mvc.NetCore.dll .
 COPY Stimulsoft.Report.Web.dll .
 COPY Stimulsoft.Report.WebDesign.dll .
 COPY Stimulsoft.System.dll .
-
-COPY --from=build-env /app/out .
-
-
-
 
 
 
