@@ -65,10 +65,10 @@ namespace WPH
                 var cultures = new List<CultureInfo> {
                     new CultureInfo("ar-IQ"),
                     new CultureInfo("en"),
-                    new CultureInfo("ku")
+                    new CultureInfo("ku-arab-iq")
                 };
 
-                options.DefaultRequestCulture = new Microsoft.AspNetCore.Localization.RequestCulture("ku");
+                options.DefaultRequestCulture = new Microsoft.AspNetCore.Localization.RequestCulture("ku-arab-iq");
                 options.SupportedCultures = cultures;
                 options.SupportedUICultures = cultures;
                 options.RequestCultureProviders = new List<IRequestCultureProvider>
