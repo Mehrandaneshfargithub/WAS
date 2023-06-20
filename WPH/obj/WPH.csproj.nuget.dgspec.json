@@ -318,6 +318,10 @@
               "target": "Package",
               "version": "[2019.2.1, )"
             },
+            "System.Management": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Telerik.UI.for.AspNet.Core": {
               "target": "Package",
               "version": "[2021.2.511, )"
