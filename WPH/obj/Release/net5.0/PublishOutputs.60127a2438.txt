@@ -370,6 +370,9 @@ H:\Projects\WAS\WPH\obj\Release\net5.0\PubTmp\Out\wwwroot\Logs\Log-20230611.txt
 H:\Projects\WAS\WPH\obj\Release\net5.0\PubTmp\Out\wwwroot\Logs\Log-20230612.txt
 H:\Projects\WAS\WPH\obj\Release\net5.0\PubTmp\Out\wwwroot\Logs\Log-20230613.txt
 H:\Projects\WAS\WPH\obj\Release\net5.0\PubTmp\Out\wwwroot\Logs\Log-20230614.txt
+H:\Projects\WAS\WPH\obj\Release\net5.0\PubTmp\Out\wwwroot\Logs\Log-20230617.txt
+H:\Projects\WAS\WPH\obj\Release\net5.0\PubTmp\Out\wwwroot\Logs\Log-20230619.txt
+H:\Projects\WAS\WPH\obj\Release\net5.0\PubTmp\Out\wwwroot\Logs\Log-20230620.txt
 H:\Projects\WAS\WPH\obj\Release\net5.0\PubTmp\Out\wwwroot\TF\New TF.txt
 H:\Projects\WAS\WPH\obj\Release\net5.0\PubTmp\Out\wwwroot\TF\TF Procedures.txt
 H:\Projects\WAS\WPH\obj\Release\net5.0\PubTmp\Out\wwwroot\Uploads\DoctorReportLogo\3b9566da-6ca5-4663-8e94-144b60709058.jpg

@@ -3,9 +3,7 @@ using Kendo.Mvc.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Stimulsoft.Report;
 using System.IO;
-using Stimulsoft.Report.Export;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
@@ -33,6 +31,8 @@ using System.Text;
 using System.Net.Http.Headers;
 using Microsoft.Extensions.Configuration;
 using System.Globalization;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Export;
 //using QRCoder;
 
 namespace WPH.Controllers.AnalysisResultMaster

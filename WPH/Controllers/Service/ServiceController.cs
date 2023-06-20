@@ -16,7 +16,6 @@ using Stimulsoft.Base.Json.Linq;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Dictionary;
 using Stimulsoft.Report.Export;
-using Stimulsoft.Report.Mvc;
 using WPH.Helper;
 using WPH.Models.Service;
 using WPH.MvcMockingServices;
@@ -377,35 +376,35 @@ namespace WPH.Controllers.Service
             return View();
         }
 
-        [Route("Service/GetReport")]
-        [Route("GetReport/Service")]
-        public IActionResult GetReport()
-        {
-            var report = new StiReport();
-            string path = Path.Combine(_hostingEnvironment.WebRootPath, "Content", "Reports", "TestServiceReport.mrt");
-            report.Load(path);
+        //[Route("Service/GetReport")]
+        //[Route("GetReport/Service")]
+        //public IActionResult GetReport()
+        //{
+        //    var report = new StiReport();
+        //    string path = Path.Combine(_hostingEnvironment.WebRootPath, "Content", "Reports", "TestServiceReport.mrt");
+        //    report.Load(path);
 
-            return StiNetCoreDesigner.GetReportResult(this, report);
-        }
+        //    return StiNetCoreDesigner.GetReportResult(this, report);
+        //}
 
-        [Route("Service/DesignerEvent")]
-        [Route("DesignerEvent/Service")]
-        public IActionResult DesignerEvent()
-        {
-            return StiNetCoreDesigner.DesignerEventResult(this);
-        }
+        //[Route("Service/DesignerEvent")]
+        //[Route("DesignerEvent/Service")]
+        //public IActionResult DesignerEvent()
+        //{
+        //    return StiNetCoreDesigner.DesignerEventResult(this);
+        //}
 
-        [Route("Service/SaveReport")]
-        [Route("SaveReport/Service")]
-        public IActionResult SaveReport()
-        {
-            var report = StiNetCoreDesigner.GetReportObject(this);
+        //[Route("Service/SaveReport")]
+        //[Route("SaveReport/Service")]
+        //public IActionResult SaveReport()
+        //{
+        //    var report = StiNetCoreDesigner.GetReportObject(this);
 
-            string path = Path.Combine(_hostingEnvironment.WebRootPath, "Content", "Reports", "ServiceReport.mrt");
-            report.Save(path);
-            // Save the report template, for example to JSON string
+        //    string path = Path.Combine(_hostingEnvironment.WebRootPath, "Content", "Reports", "ServiceReport.mrt");
+        //    report.Save(path);
+        //    // Save the report template, for example to JSON string
 
-            return StiNetCoreDesigner.SaveReportResult(this);
-        }
+        //    return StiNetCoreDesigner.SaveReportResult(this);
+        //}
     }
 }

@@ -9,13 +9,13 @@ using Microsoft.AspNetCore.Http;
 using WPH.Models.BaseInfo;
 using WPH.Models.CustomDataModels.ClinicSection;
 using WPH.Models.Cash;
-using Stimulsoft.Report;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
-using Stimulsoft.Report.Export;
 using WPH.Models.Reception;
 using System.Linq;
 using Microsoft.Extensions.Logging;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Export;
 
 namespace WPH.Controllers.Cash
 {
